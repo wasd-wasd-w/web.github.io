@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
+    <title>Pagina Totem</title>
+</head>
+
+<body>
+
+    <!-- barra navegación -->
+    <header>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#concepto">Concepto</a>
+            <a href="#proceso">Proceso</a>
+            <a href="#materialidad">Materialidad</a>
+            <a href="#producto">Producto final</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- inicio concepto -->
+        <section id="inicio" class="inicio">
+            <div class="informacion">
+                <h1>Tótem</h1>
+                <p>
+                    Este es un proyecto de diseño de un tótem que realizamos el primer año de la carrera. La idea era crear un tótem a partir del arte de dos artistas diferentes, en este caso, Wassily Kandinsky y Mon Laferte. El tótem debía reflejar la esencia de ambos artistas y fusionar sus estilos en una sola pieza.
+                </p>
+                <div id="concepto">
+                    <h2>Concepto</h2>
+                    <div class="referentes">
+                        <div class="referente">
+                            <img src="images/Komposition-VIII.jpg"
+                                alt="Obra Composición 8 de Wassily Kandinsky">
+                            <h3>Obra Composición 8 de Wassily Kandinsky</h3>
+                        </div>
+                        <div class="referente">
+                            <img src="images/mon-laferte.jpg"
+                                alt="Mon Laferte Vol. 1">
+                            <h3>Mon Laferte Vol. 1</h3>
+                        </div>
+                    </div>
+                    <p>
+                        Wassily Kandinsky fue un pintor ruso, pionero del arte abstracto. Utilizaba colores, líneas y figuras geométricas para expresar emociones y movimiento. Mon Laferte es una cantante y artista visual chilena-mexicana. Su obra combina emociones intensas, colores vibrantes y simbolismos relacionados con el amor, el dolor y la identidad. Estos dos artistas, aunque sean de diferentes disciplinas, comparten un enfoque en la expresión emocional y el uso del color y la forma para transmitir sentimientos. La fusión de sus estilos en el tótem busca capturar la esencia de ambos, creando una pieza que refleje tanto la abstracción de Kandinsky como la intensidad emocional de Mon Laferte.
+                    </p>
+                </div>
+            </div>
+            <div class="imagen-principal">
+                <img src="images/afiche-totem.png"
+                    alt="Afiche abstracto del tótem">
+            </div>
+        </section>
+
+        <!-- proceso -->
+        <section id="proceso" class="proceso">
+
+            <div class="titulo-seccion">
+                <h2>Proceso</h2>
+            </div>
+            <div class="contenido-proceso">
+                <div class="imagenes-proceso">
+                    <img src="images/maqueta1.jpg"
+                        alt="Primera maqueta">
+
+                    <img src="images/maqueta2.jpg"
+                        alt="Segunda maqueta">
+                </div>
+                <div class="texto-proceso">
+                    <h3>Maquetas</h3>
+                    <p>
+                        Nuestra primera maqueta fue un prototipo inicial que nos permitió explorar la expresión y la forma del tótem. A partir de esta maqueta, realizamos ajustes para que se viera un poco más tridimensional y tuviera un mejor equilibrio visual. La segunda maqueta reflejaba estos cambios.
+                    </p>
+                </div>
+            </div>
+            <div class="formas-decorativas">
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+
+        <!-- materialidad -->
+        <section id="materialidad" class="materialidad">
+            <h2>Materialidad</h2>
+            <div class="contenido-materialidad">
+                <ol>
+                    <li>Listones 2x1</li>
+                    <li>Cartón piedra</li>
+                    <li>Vendas de yeso</li>
+                    <li>Cartulina española</li>
+                    <li>Pintura en spray</li>
+                </ol>
+                <div class="imagen-materialidad">
+                    <img src="images/pintura-azul.webp"
+                        alt="Pintura en spray azul">
+
+                    <img src="images/liston-2x1.webp"
+                        alt="Listón de madera 2x1">
+
+                    <img src="images/cartulina.webp"
+                        alt="Cartulina española">
+                </div>
+            </div>
+        </section>
+
+        <!-- producto final -->
+        <section id="producto" class="producto">
+            <h2>Producto final</h2>
+            <div class="imagenes-finales">
+                <img src="images/prototipo.jpg"
+                    alt="Primer prototipo a escala real del tótem">
+
+                <img src="images/final.jpg"
+                    alt="Resultado final del tótem">
+            </div>
+        </section>
+    </main>
+
+
+    <!-- pie de página -->
+    <footer>
+        <p>&copy; 2024 Tótem. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

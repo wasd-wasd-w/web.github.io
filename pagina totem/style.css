@@ -1,0 +1,299 @@
+
+/* CONFIGURACIÓN GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 2rem 0 0;
+    font-family: 'Momo Trust Display', sans-serif;
+    background-color: #222222;
+    color: #000000;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* BARRA DE NAVEGACIÓN */
+
+header {
+    background-color: #e5e1e1;
+    padding: 1rem;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #e5a92a;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+/* INICIO Y CONCEPTO */
+
+.inicio {
+    background-color: #e5a92a;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 1rem;
+    padding: 1.5rem;
+    align-items: stretch;
+}
+
+.informacion {
+    padding: 1rem;
+}
+
+.informacion h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.informacion p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+#concepto {
+    margin-top: 2rem;
+}
+
+#concepto h2 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.referentes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.referente img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.referente h3 {
+    font-size: 0.85rem;
+}
+
+.imagen-principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* PROCESO */
+
+.proceso {
+    background-color: #e5a92a;
+}
+
+.titulo-seccion {
+    background-color: #e5e1e1;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.titulo-seccion h2 {
+    font-size: 1.1rem;
+}
+
+.contenido-proceso {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+.imagenes-proceso {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.imagenes-proceso img {
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.texto-proceso {
+    padding: 1rem;
+}
+
+.texto-proceso h3 {
+    font-size: 1.1rem;
+}
+
+.texto-proceso p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+
+/* FORMAS DECORATIVAS */
+
+.formas-decorativas {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.formas-decorativas span {
+    width: 4rem;
+    height: 2rem;
+    background-color: #203f91;
+    border-radius: 0 0 3rem 3rem;
+}
+
+
+/* MATERIALIDAD */
+
+.materialidad {
+    background-color: #e5e1e1;
+    padding: 1.5rem 3rem;
+}
+
+.materialidad h2 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.contenido-materialidad {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.contenido-materialidad ol {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* IMAGENES MATERIALIDAD*/
+
+.imagen-materialidad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.imagen-materialidad img {
+    width: 100%;
+    height: 11rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* PRODUCTO FINAL */
+
+.producto {
+    background-color: #e5a92a;
+    padding: 1.5rem 3rem 2rem;
+}
+
+.producto h2 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.imagenes-finales {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.imagenes-finales img {
+    width: 100%;
+    height: 110rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #ffffff;
+    min-height: 5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+/* PANTALLAS PEQUEÑAS */
+
+@media (max-width: 40rem) {
+
+    .inicio {
+        grid-template-columns: 1fr;
+    }
+
+    .imagen-principal img {
+        height: 25rem;
+    }
+
+    .contenido-proceso {
+        grid-template-columns: 1fr;
+    }
+
+    .imagenes-proceso img {
+        height: 13rem;
+    }
+
+    .contenido-materialidad {
+        grid-template-columns: 1fr;
+    }
+
+    .imagen-materialidad {
+        grid-template-columns: 1fr;
+    }
+
+    .imagen-materialidad img {
+        height: 15rem;
+    }
+
+    .imagenes-finales {
+        grid-template-columns: 1fr;
+    }
+
+    .imagenes-finales img {
+        height: 30rem;
+    }
+
+}
